@@ -8,7 +8,7 @@ Q = np.zeros([env.observation_space.n, env.action_space.n])
 EPISODES = 20000
 LEARNING_RATE = 0.3
 DISCOUNT_FACTOR = 0.95
-EPSILON = 0.2
+EPSILON = 0.3
 
 
 def get_greedy(Q, s):
